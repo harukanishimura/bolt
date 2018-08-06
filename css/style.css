@@ -78,7 +78,7 @@ a {
 
 .themes {
   margin-top: 20px;
-  margin-bottom: 250px;
+  padding-bottom: 250px;
   font-size: 30px;
   color: #c0c0c0;
 }
