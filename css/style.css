@@ -44,23 +44,27 @@ a {
   float: right;
 }
 
-.contact_button_text {
+.contact_button_txt {
   font-size: 12px;
   padding: 14px 12px;
   color: #fff;
   transition: .3s;
 }
 
-.contact_button:hover > .contact_button_text {
+.contact_button:hover > .contact_button_txt {
   color: #333;
+}
+
+.main_wrap {
+  padding-top: 70px;
 }
 
 .is_bolttheme {
   background: #f2f2f2;
-  padding: 320px 0;
+  padding: 250px 0;
 }
 
-.title_div {
+.title_name {
   text-align: center;
 }
 
@@ -93,12 +97,12 @@ a {
   transform: translateY(20%);
 }
 
-.what_title_text {
+.what_title_txt {
   font-size: 24px;
   font-family: Raleway;
 }
 
-.what_content_text {
+.what_content_txt {
   font-size: 20px;
   margin-top: 35px;
   line-height: 30px;
@@ -151,7 +155,7 @@ a {
   width:900px;
 }
 
-.latest_bottom_text {
+.latest_bottom_txt {
   line-height: 20px;
   float: left;
   margin: 0 90px;
@@ -163,14 +167,14 @@ a {
   float: left;
 }
 
-.latest_bottom_button_text {
+.latest_bottom_button_txt {
   font-size: 12px;
   color: #fff;
   padding: 14px 20px;
   transition: .3s;
 }
 
-.latest_bottom_button:hover > .latest_bottom_button_text {
+.latest_bottom_button:hover > .latest_bottom_button_txt {
   color: #333;
 }
 
@@ -202,7 +206,7 @@ a {
   margin-right: 0;
 }
 
-.skills_text {
+.skills_txt {
   color: #fff;
   width: 122px;
   text-align: center;
@@ -223,17 +227,14 @@ a {
   width: 185px;
   background-color : Transparent;
   transition: all .2s;
+  padding-top: 16px;
   padding-bottom: 15px;
+  font-size: 70px;
 }
 
 .link_button:hover {
   cursor: pointer;
   background-color: #FFF;
-}
-
-.fa-5x:before {
-  color: #74cfae;
-  font-size: 60px;
 }
 
 .footer {
@@ -247,6 +248,8 @@ a {
   float: right;
 }
 
-.footer_text {
+.footer_txt {
   display: inline-block;
+  color: #fff;
+  float: right;
 }
