@@ -66,6 +66,9 @@ img {
   color: #333;
 }
 
+
+
+
 @media screen and (max-width: 766px){
   .contact_button_sp{
     background: #fff;
@@ -73,6 +76,32 @@ img {
     border-radius: 4px;
     float: right;
     padding: 10px;
+  }
+}
+
+@media screen and (max-width:766px){
+  .contact_button_sp_hover{
+    width: 100%;
+    background: #74cfae;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width:767px){
+  .contact_button_sp_hover{
+    display: none;
+  }
+}
+
+@media screen and (max-width:766px){
+  .contact_button_txt_sp_hover{
+    color: #fff;
+  }
+}
+
+@media screen and (min-width:767px){
+  .contact_button_txt_sp_hover{
+    display: none;
   }
 }
 
@@ -98,6 +127,7 @@ img {
 .is_bolttheme {
   background: #f2f2f2;
   padding: 250px 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 766px){
