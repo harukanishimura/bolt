@@ -16,10 +16,6 @@ img {
   clear: both;
 }
 
-.clear {
-  clear: both;
-}
-
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -282,15 +278,14 @@ img {
 @media screen and (max-width: 1199px){
   .latest_bottom_txt{
     float: none;
-    margin: 0 auto 40px auto;
-    width: 97%;
+    margin: 0 auto 40px;
+    width: 100%;
   }
 }
 
 .latest_bottom_button {
   background: #74cfae;
   float: left;
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px){
@@ -319,7 +314,6 @@ img {
 
 .our_skills_title {
   color: #fff;
-  margin: 0 auto;
   font-size: 24px;
 }
 
@@ -336,7 +330,7 @@ img {
 
 @media screen and (max-width: 1199px){
   .skills_float{
-    margin: 0 auto 88px 0;
+    margin: 0 0 88px;
   }
 }
 
