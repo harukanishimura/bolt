@@ -66,9 +66,6 @@ img {
   color: #333;
 }
 
-
-
-
 @media screen and (max-width: 766px){
   .contact_button_sp{
     background: #fff;
@@ -84,6 +81,8 @@ img {
     width: 100%;
     background: #74cfae;
     padding: 20px;
+    margin-bottom: 30px;
+    position: fixed;
   }
 }
 
