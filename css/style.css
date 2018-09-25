@@ -53,6 +53,11 @@ img {
   background: #74cfae;
   float: right;
 }
+@media screen and (max-width: 766px){
+  .contact_button {
+    display: none;
+  }
+}
 
 .contact_button_txt {
   font-size: 12px;
@@ -63,6 +68,31 @@ img {
 
 .contact_button:hover > .contact_button_txt {
   color: #333;
+}
+
+@media screen and (max-width: 766px){
+  .contact_button_sp{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: right;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .border{
+    border: none;
+    border: 1px #ddd solid;
+    width: 30px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .border:first-child{
+    margin-top: 0;
+  }
 }
 
 .main_wrap {
@@ -89,6 +119,12 @@ img {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
+}
+
+@media screen and (min-width: 767px){
+  .bolttheme_break{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 766px){
@@ -125,10 +161,9 @@ img {
 
 @media screen and (max-width: 1199px){
   .what_box {
-    padding-top: 20px;
     float: none;
     width: 100%;
-    margin-top: 0;
+    margin-top: 20px;
   }
 }
 
@@ -164,13 +199,13 @@ img {
 }
 
 .latest_anchors {
-  padding-bottom: 90px;
+  margin-bottom: 90px;
   font-size: 0;
 }
 
 @media screen and (max-width: 1199px){
   .latest_anchors {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
 }
 
@@ -215,8 +250,14 @@ img {
 
 
 @media screen and (max-width: 1199px){
-  .latest_anchors > .latest_anchor:nth-child(4){
-    padding-top: 80px;
+  .latest_anchors > .latest_anchor:nth-child(3n+1){
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .latest_anchors > .latest_anchor:first-child{
+    margin-top: 0;
   }
 }
 
@@ -345,7 +386,7 @@ img {
 
 @media screen and (max-width: 766px){
   .link_button {
-    width: calc(100% - 15px);
+    width: 100%;
   }
 }
 
