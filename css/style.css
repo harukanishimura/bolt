@@ -6,6 +6,7 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+
 img {
   vertical-align: top;
 }
@@ -34,6 +35,12 @@ img {
   position: fixed;
   z-index: 999;
   padding: 15px 0;
+}
+
+@media screen and (max-width: 766px){
+  .header {
+    border-bottom: 1px #ddd solid;
+  }
 }
 
 .bolt_icon {
@@ -68,7 +75,6 @@ img {
 
 @media screen and (max-width: 766px){
   .contact_button_sp{
-    background: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
     float: right;
@@ -77,30 +83,31 @@ img {
 }
 
 @media screen and (max-width:766px){
-  .contact_button_sp_hover{
+  .contact_button_sp_active{
     width: 100%;
     background: #74cfae;
     padding: 20px;
-    margin-bottom: 30px;
     position: fixed;
+    border-top: 20px #fff solid;
+    border-bottom: 30px #fff solid;
+    z-index: 10;
   }
 }
 
 @media screen and (min-width:767px){
-  .contact_button_sp_hover{
+  .contact_button_sp_active{
     display: none;
   }
 }
 
 @media screen and (max-width:766px){
-  .contact_button_txt_sp_hover{
+  .contact_button_txt_sp_active{
     color: #fff;
   }
 }
 
 @media screen and (max-width: 766px){
   .border{
-    border: none;
     border: 1px #ddd solid;
     width: 30px;
     margin-top: 8px;
@@ -114,7 +121,7 @@ img {
 }
 
 .main_wrap {
-  padding-top: 70px;
+  padding-top: 74px;
 }
 
 .is_bolttheme {
@@ -130,14 +137,16 @@ img {
   }
 }
 
-.title_name {
-  text-align: center;
-}
-
 .bolttheme {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
+}
+
+@media screen and (max-width:766px){
+  .bolttheme {
+    font-size: 80px;
+  }
 }
 
 @media screen and (min-width: 767px){
@@ -173,7 +182,6 @@ img {
 .what_box {
   float: right;
   width: 775px;
-  text-align: center;
   color: #fff;
   margin-top: 35px;
 }
@@ -188,7 +196,6 @@ img {
 
 .what_title_txt {
   font-size: 24px;
-  font-family: Raleway;
 }
 
 .what_content_txt {
@@ -210,11 +217,9 @@ img {
 }
 
 .latest_title {
-  color: #4e4e4e;
   margin-bottom: 40px;
   font-size: 24px;
   color: #4e4e4e;
-  line-height: 25px;
 }
 
 .latest_anchors {
@@ -235,6 +240,7 @@ img {
   -moz-opacity: 0.7;
   opacity: 0.7;
   transition: .3s;
+  z-index: 0;
 }
 
 @media screen and (max-width: 1199px){
@@ -261,12 +267,9 @@ img {
   }
 }
 
-
 .latest_anchors > .latest_anchor:nth-child(-n+3) {
   margin-top: 0;
 }
-
-
 
 @media screen and (max-width: 1199px){
   .latest_anchors > .latest_anchor:nth-child(3n+1){
@@ -330,7 +333,6 @@ img {
 
 .our_skills {
   background: #4e4e4e;
-  overflow: hidden;
   padding-top: 70px;
   padding-bottom: 100px;
 }
@@ -377,7 +379,6 @@ img {
 
 .sns {
   background: #f2f2f2;
-  overflow: hidden;
   padding-top: 200px;
   padding-bottom: 200px;
 }
