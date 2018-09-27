@@ -37,12 +37,6 @@ img {
   padding: 15px 0;
 }
 
-@media screen and (max-width: 766px){
-  .header {
-    border-bottom: 1px #ddd solid;
-  }
-}
-
 .bolt_icon {
   float: left;
   font-size: 20px;
